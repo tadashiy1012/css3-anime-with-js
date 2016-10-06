@@ -1,0 +1,35 @@
+p#tgt {
+  margin-top: 300px;
+}
+
+p.animeActive {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+    color: red;
+    font-size: 100%;
+    transform: rotate(0deg);
+  }
+  10% {
+    margin-left: 0%;
+    color: red;
+    font-size: 100%;
+    transform: rotate(0deg);
+  }
+  50% {
+    font-size: 600%;
+    font-weight: bolder;
+  }
+  100% {
+    margin-left: 86%;
+    color: blue;
+    font-size: 100%;
+    transform: rotate(360deg);
+  }
+}
